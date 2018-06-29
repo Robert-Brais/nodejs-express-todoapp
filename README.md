@@ -14,7 +14,7 @@ The following `README` is a guide to build and deploy with Codeship Pro You will
 
 Be sure to star/watch this repo to stay up-to-date with any changes. If you have any questions or suggestions regarding this example , please submit an [issue here](https://github.com/codeship-library/nodejs-express-todoapp/issues/new).
 
-## Getting Started
+## Getting Started (see Getting Started with Windows for additional instructions if you are on this OS)
 
 There are a few resources to make sure you have available during this guide.
 
@@ -34,6 +34,18 @@ There are a few resources to make sure you have available during this guide.
 Signup for each of these is free, and should only take you a few minutes if you don't already have one.  You can use your current accounts if you already have one available.
 
 Once you have everything ready to go, you can move on to the next step.
+
+## *Getting Started on Windows*
+Codeship Jet CLI is not supported on Windows. You will have to set up a Linux environment locally to complete this tutorial by following these steps:  
+1. Install the [Linux Subsytem for Windows (LSW)] (https://docs.microsoft.com/en-us/windows/wsl/install-win10). Make sure to select the ubuntu distribution of linux. Note: the installation appear to stall without completing. Restart the installation terminal and you will see that the installation completed correctly.  
+ 
+2. You will need to install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository) and [Docker Machine](https://docs.docker.com/machine/install-machine/) for Ubuntu.
+
+3. Install [Virtual Box for Ubuntu](https://websiteforstudents.com/install-virtualbox-latest-on-ubuntu-16-04-lts-17-04-17-10/).  
+
+4.  Now install [Jet CLI for Ubuntu](https://documentation.codeship.com/pro/jet-cli/installation/#prerequisites).
+
+5. Clone this git repository (you may need to [set up rsa keys on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604) if you are using ssh and [store the keys on your github account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)).  
 
 ## Continuous Integration with Codeship
 
