@@ -14,7 +14,7 @@ The following `README` is a guide to build and deploy with Codeship Pro You will
 
 Be sure to star/watch this repo to stay up-to-date with any changes. If you have any questions or suggestions regarding this example , please submit an [issue here](https://github.com/codeship-library/nodejs-express-todoapp/issues/new).
 
-## Getting Started (see Getting Started with Windows for additional instructions if you are on this OS)
+## Getting Started *see below for additional steps on Winodws*
 
 There are a few resources to make sure you have available during this guide.
 
@@ -37,7 +37,7 @@ Once you have everything ready to go, you can move on to the next step.
 
 ## *Getting Started on Windows*
 Codeship Jet CLI is not supported on Windows. You will have to set up a Linux environment locally to complete this tutorial by following these steps:  
-1. Install the [Linux Subsytem for Windows (LSW)] (https://docs.microsoft.com/en-us/windows/wsl/install-win10). Make sure to select the ubuntu distribution of linux. Note: the installation appear to stall without completing. Restart the installation terminal and you will see that the installation completed correctly.  
+1. Install the [Linux Subsytem for Windows (LSW)] (https://docs.microsoft.com/en-us/windows/wsl/install-win10). Make sure to select the ubuntu distribution of linux. Note: the installation appear to stall without completing. Restart the installation terminal and you will see that the installation completed correctly.All foolowing steps take place in the Ubuntu terminal.  
  
 2. You will need to install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository) and [Docker Machine](https://docs.docker.com/machine/install-machine/) for Ubuntu.
 
