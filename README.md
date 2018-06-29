@@ -14,7 +14,7 @@ The following `README` is a guide to build and deploy with Codeship Pro You will
 
 Be sure to star/watch this repo to stay up-to-date with any changes. If you have any questions or suggestions regarding this example , please submit an [issue here](https://github.com/codeship-library/nodejs-express-todoapp/issues/new).
 
-## Getting Started *see below for additional steps on Winodws*
+## Getting Started *see below for additional steps on Windows*
 
 There are a few resources to make sure you have available during this guide.
 
