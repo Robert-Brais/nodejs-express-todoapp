@@ -37,11 +37,9 @@ Once you have everything ready to go, you can move on to the next step.
 
 ## *Getting Started on Windows*
 Codeship Jet CLI is not supported on Windows. You will have to set up a Linux environment locally to complete this tutorial by following these steps:  
-1. Install the [Linux Subsytem for Windows (LSW)] (https://docs.microsoft.com/en-us/windows/wsl/install-win10). Make sure to select the ubuntu distribution of linux. Note: the installation appear to stall without completing. Restart the installation terminal and you will see that the installation completed correctly.All foolowing steps take place in the Ubuntu terminal.  
+1. Install the [Windows Subsytem for Linux (WSL)] (https://docs.microsoft.com/en-us/windows/wsl/install-win10). Make sure to select the ubuntu distribution of linux. Note: the installation appear to stall without completing. Restart the installation terminal and you will see that the installation completed correctly.All foolowing steps take place in the Ubuntu terminal.  
  
-2. You will need to install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository) and [Docker Machine](https://docs.docker.com/machine/install-machine/) for Ubuntu.
-
-3. Install [Virtual Box for Ubuntu](https://websiteforstudents.com/install-virtualbox-latest-on-ubuntu-16-04-lts-17-04-17-10/).  
+2. Set up Docker on WSL following the [instructions by Nick Janetakis](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly).  
 
 4.  Now install [Jet CLI for Ubuntu](https://documentation.codeship.com/pro/jet-cli/installation/#prerequisites).
 
