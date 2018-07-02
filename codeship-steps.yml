@@ -9,4 +9,4 @@
 - name: deploy
   tag: master
   service: codeship-heroku-deployment
-  command: codeship_heroku deploy /deploy https://node-js-todoapp.herokuapp.com/
+  command: codeship_heroku deploy /deploy node-js-todoapp
