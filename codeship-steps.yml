@@ -9,4 +9,4 @@
 - name: deploy
   tag: master
   service: codeship-heroku-deployment
-  command: codeship_heroku deploy /deploy calm-reef-24440
+  command: codeship_heroku deploy /deploy https://calm-reef-24440.herokuapp.com/
